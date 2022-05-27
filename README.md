@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Menu-React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> "Menu-React" is a simple app that reads and displays the dummy data contained in a file in the form of an array of objects (this data puports to be the image, title, category, price, and description of items that are purported to be menu items). The user can either browse the entire menu or select a spacific category of menu items to browse. The category select options are hard coded in feature2-manualApproach and, on feature3-dynamicApproach are generated dynamically as more categories are written into the menu items array. The app is based on the eponimous project that appears in the tutorial [Code 15 React Projects - Complete Course](https://youtu.be/a_7Z7C_JCyo) by freeCodeCamp.org.
+ 
+![Menu-React](/public/menu-all.png?raw=true "Menu all display")
+![Menu-React](/public/tours-shakes.png?raw=true "Menu shakes display")
 
-## Available Scripts
+### Setup and Install
 
-In the project directory, you can run:
+* Open your terminal - Windows: `Win + R`, then type `cmd` | Mac: `Command + space`, then type `Terminal`
+* Navigate to a directory of your choosing using the `cd` command
+* Run this command in your OS terminal: `git clone git@github.com:German-Cobian/Menu-React.git` to get a copy of the project
+* Navigate to the project's directory using the `cd` command
+* In the clone folder, run `npm install`
+* To fire up the server run `npm start`
+* Visit `http://localhost:3001/` in your browser to get into the app
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Semantic HTML
+* JavaScript
+* React
+* Github workflow
+* Linters(stylelint, Webhint, eslint)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Author
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+👤 **German Cobian**
+* GitHub: [@German Cobian](https://github.com/German-Cobian)
+* Twitter: [@GermanCobian1](https://twitter.com/GermanCobian1)
+* LinkedIn: [@German Cobian](https://www.linkedin.com/in/german-cobian/)
 
-### `npm run build`
+## 🤝 Contributing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contributions, issues, and feature requests are welcome!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Feel free to check the [issues page](https://github.com/German-Cobian/Menu-React/issues).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Show your support
 
-### `npm run eject`
+Give a ⭐️ if you like this project!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Acknowledgments
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- freeCodeCamp.org
+- Code reviewer(s).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📝 License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT licensed](https://github.com/German-Cobian/Menu-React/blob/main/LICENSE).
